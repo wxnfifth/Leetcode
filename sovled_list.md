@@ -3,3 +3,5 @@
  844. Backspace String compare, first time accepted, O(1) space solution is interesting
  001. Two Sum, FTA, 
 ### 843. Guess the Word, hard, see the answer to get result
+### 857. Minimum Cost to Hire K Workers , hard, hard to understand meaning of question
+
