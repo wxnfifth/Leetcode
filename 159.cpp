@@ -1,3 +1,30 @@
+//new solution
+class Solution {
+public:
+    int lengthOfLongestSubstringTwoDistinct(string s) {
+        //use a window to count how many distinct characters
+        map<char, int> window;// window->first is character, window->second is count
+        int len = 0;
+        int start = 0;
+        int end = 0; // window is [start, end] 
+        while (end < s.length()) {
+            window[s[end]]++;
+            while (start <= end && window.size() > 2) {
+                window[s[start]]--;
+                if (window[s[start]] == 0) {
+                    window.erase(s[start]);
+                }
+                start++;
+            }
+            len = max(len, end - start + 1);
+            end++;
+        }
+        return len;
+    }
+};
+        
+
+
 class Solution {
 public:
     int lengthOfLongestSubstringTwoDistinct(string s) {
