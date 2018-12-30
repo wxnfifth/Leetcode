@@ -7,3 +7,4 @@
 737. Sentence Similarity II, take care of corner cases
 ### 753. Cracking the Safe , hard, didn't solve yet
 734. Sentence Similarity , easy, but need to take care of corner case
+### 686. Repeated String Match, easy but didn't get it correct, read for https://leetcode.com/articles/repeated-string-match/ for solution
