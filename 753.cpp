@@ -1,3 +1,34 @@
+//my solution, bfs
+
+class Solution {
+public:
+    string crackSafe(int n, int k) {
+        //total node k^n, each node is like 00,01,10,11, replace last digit of each node to other node
+        unordered_set<string> visited;
+        string node(n, '0');
+        string ans;
+        ans += node;
+        visited.insert(node);
+        for (int i = 0; i < pow(k, n); ++i) {
+            string pre = ans.substr(ans.length() - (n - 1), n - 1);
+            //cout << ans << "\n";
+            for (int j = k - 1; j >= 0; --j) {
+                string cur = pre + to_string(j);
+                if (visited.count(cur) == 0) {
+                    ans += to_string(j);
+                    visited.insert(cur);
+                    break;
+                }
+            }
+        }
+        return ans;
+        
+    }
+};
+
+
+
+
 Approach #1: Hierholzer's Algorithm [Accepted]
 
 Intuition
