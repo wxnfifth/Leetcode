@@ -1,10 +1,11 @@
- 399. Evaluate Division , first time accepted , bfs
- 159. Longest Substring with At Most Two Distinct Characters, first time accepted, window scan
- 844. Backspace String compare, first time accepted, O(1) space solution is interesting
- 001. Two Sum, FTA, 
+399. Evaluate Division , first time accepted , bfs
+159. Longest Substring with At Most Two Distinct Characters, first time accepted, window scan
+844. Backspace String compare, first time accepted, O(1) space solution is interesting
+001. Two Sum, FTA, 
 ### 843. Guess the Word, hard, see the answer to get result
 ### 857. Minimum Cost to Hire K Workers , hard, hard to understand meaning of question
 737. Sentence Similarity II, take care of corner cases
-### 753. Cracking the Safe , hard, didn't solve yet
+### 753. Cracking the Safe , hard, sovled, bfs or dfs with some careful arrange
 734. Sentence Similarity , easy, but need to take care of corner case
-### 686. Repeated String Match, easy but didn't get it correct, read for https://leetcode.com/articles/repeated-string-match/ for solution
+686. Repeated String Match, easy, read for https://leetcode.com/articles/repeated-string-match/ for solution
+489. Robot Room Cleaner, hard, dfs + backtrace, take care of backtracing part, robot need to move the correct direction
