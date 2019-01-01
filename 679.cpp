@@ -1,3 +1,6 @@
+http://www.cnblogs.com/grandyang/p/8395062.html
+another good solution
+
 class Solution {
     bool flag = false;
     vector<double> getNextNums(const vector<double>& nums, int i, double d) {
