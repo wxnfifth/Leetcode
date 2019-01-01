@@ -12,5 +12,7 @@
 308. Range Sum Query 2D - Mutable, hard, solved by segment tree
 299. Bulls and Cows, middle
 642. Design Search Autocomplete System, hard but sovled
-803 Bricks Falling When Hit 
+### 803 Bricks Falling When Hit , too hard, https://zxi.mytechroad.com/blog/searching/leetcode-803-bricks-falling-when-hit/, key idea is from back to front
+### 418. Sentence Screen Fitting, medium, very hard
+
 
