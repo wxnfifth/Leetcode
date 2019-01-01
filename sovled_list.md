@@ -12,5 +12,5 @@
 308. Range Sum Query 2D - Mutable, hard, solved by segment tree
 299. Bulls and Cows, middle
 642. Design Search Autocomplete System, hard but sovled
-
+803 Bricks Falling When Hit 
 
