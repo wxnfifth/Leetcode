@@ -11,3 +11,6 @@
 489. Robot Room Cleaner, hard, dfs + backtrace, take care of backtracing part, robot need to move the correct direction
 308. Range Sum Query 2D - Mutable, hard, solved by segment tree
 299. Bulls and Cows, middle
+642. Design Search Autocomplete System, hard but sovled
+
+
