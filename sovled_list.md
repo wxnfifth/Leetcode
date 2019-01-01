@@ -16,3 +16,4 @@
 ### 418. Sentence Screen Fitting, medium, very hard
 ### 774. Minimize Max Distance to Gas Station, binary search, very interested
 679. 24 Game, another good solution, http://www.cnblogs.com/grandyang/p/8395062.html
+833. Find and Replace in String
