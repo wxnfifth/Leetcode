@@ -19,9 +19,8 @@
 833. Find and Replace in String
 ### 403. Frog Jump , hard, https://zhuanlan.zhihu.com/p/24569755
 ### 947 Most Stones Removed with Same Row or Column (/problems/most-stones-removed-with-same-row-or-
-column) https://blog.csdn.net/fuxuemingzhu/article/details/84500642
+column) https://blog.csdn.net/fuxuemingzhu/article/details/84500642 , union set
 222. Count Complete Tree Nodes
 205. Isomorphic Strings, note end2end
 766. Toeplitz Matrix, easy , first time wrong...
 135. Candy, hard
-947. Most Stones Removed with Same Row or Column
