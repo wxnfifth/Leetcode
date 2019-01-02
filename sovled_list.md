@@ -27,4 +27,6 @@
 My calender I http://www.cnblogs.com/grandyang/p/7920253.html
 
 
+
+27. Remove Element,easy
 344. Reverse String,easy
