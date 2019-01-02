@@ -24,3 +24,4 @@ column) https://blog.csdn.net/fuxuemingzhu/article/details/84500642
 205. Isomorphic Strings, note end2end
 766. Toeplitz Matrix, easy , first time wrong...
 135. Candy, hard
+947. Most Stones Removed with Same Row or Column
