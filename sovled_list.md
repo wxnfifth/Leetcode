@@ -26,13 +26,10 @@
 56. Merge Intervals
 My calender I http://www.cnblogs.com/grandyang/p/7920253.html
 
-
 167 Two Sum II - Input array is sorted
 39 Combination Sum
 217 Contains Duplicate
 125 Valid Palindrome 
 94 Binary Tree Inorder Traversal
 27 Remove Element
-344. Reverse String,easy
-27. Remove Element,easy
 344. Reverse String,easy
