@@ -1,4 +1,51 @@
-//brute force solution
+465. Optimal Account Balancing
+//almost same
+class Solution {
+    map<int,int> accounts;//account.first is the id, account.second is person's balance
+    int min_transfers = INT_MAX;
+
+    void dfs(vector<int>& v, int pos, int num) {
+        if (pos >= v.size()) {
+            min_transfers = min(min_transfers, num);
+            return;
+        }
+        if (v[pos] == 0) {
+            dfs(v, pos + 1, num);
+            return;
+        }
+        for (int i = pos + 1; i < v.size(); ++i) {
+            if ((v[i] > 0 && v[pos] < 0) ||
+                (v[i] < 0 && v[pos] > 0)) {
+                    int tmp = v[pos];
+                v[pos] -= tmp;//v[pos] is 0 now
+                v[i] += tmp;
+                //not i!!, because between pos and i is not settled
+                dfs(v, pos + 1, num + 1);
+                v[pos] += tmp;
+                v[i] -= tmp;
+            }
+        }
+    }
+
+public:
+    int minTransfers(vector<vector<int>>& transactions) {
+        //first count each person's balance
+        for (auto& t:transactions) {
+            accounts[t[0]] -= t[2];
+            accounts[t[1]] += t[2];
+        }
+        //dfs to find minTransfers 
+        vector<int> v;
+        for (auto a:accounts) {
+            v.push_back(a.second);
+        }
+        int num = 0;
+        dfs(v, 0, 0);
+        return min_transfers;
+    }
+};
+
+//2017's solution, brute force solution
 class Solution {
 private:
     int ans = INT_MAX;
