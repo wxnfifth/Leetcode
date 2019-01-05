@@ -28,15 +28,15 @@ My calender I http://www.cnblogs.com/grandyang/p/7920253.html
 ### 731. My Calendar II, interesting
 465. Optimal Account Balancing, not hard, but got error
 
-167 Two Sum II - Input array is sorted
-39 Combination Sum
-217 Contains Duplicate
-125 Valid Palindrome 
-94 Binary Tree Inorder Traversal
-27 Remove Element
+167. Two Sum II - Input array is sorted
+39. Combination Sum
+217. Contains Duplicate
+125. Valid Palindrome 
+94. Binary Tree Inorder Traversal
+27. Remove Element
 344. Reverse String,easy
 
-Jan 05, 939 Minimum Area Rectangle Medium
+Jan 05, 939. Minimum Area Rectangle Medium
 Jan 05, 158 Read N Characters Given Read4 II - Call multiple times (/problems/read-n-characters-given-read4-ii-call-multiple-times)  24.4% Hard
 Jan 05, 248 Strobogrammatic Number III (/problems/strobogrammatic-number-iii)  34.8% Hard
 Jan 05, 750 Number Of Corner Rectangles (/problems/number-of-corner-rectangles)  62.0% Medium
